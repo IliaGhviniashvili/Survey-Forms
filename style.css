@@ -1,0 +1,89 @@
+/* background image */
+body {
+  background-image: url("https://i.pinimg.com/564x/c0/e9/1a/c0e91a73214568437051c8cbd11a876b.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+
+/*title*/
+#title {
+  color: rgba(250, 240, 200, 0.9);
+  text-align: center;
+  padding: 20px;
+  line-height: 0;
+  font-size: 33px;
+}
+#description {
+  text-align: center;
+  color: rgba(250, 240, 200, 0.8);
+  font-size: 20px;
+  line-height: 0;
+  font-style: italic;
+}
+/*survey background*/
+#survey-form {
+  background-color: rgba(100, 0, 150, 0.5);
+  border-radius: 10px;
+  width: 500px;
+  margin: 0 auto;
+  color: white;
+  line-height: 1.5;
+  padding: 10px;
+}
+input[id="container"] {
+  transform: scale(2);
+}
+
+/*formating inputs*/
+#name {
+  padding: 7px;
+  width: 480px;
+  border-radius: 5px;
+}
+
+#email {
+  padding: 7px;
+  width: 480px;
+  border-radius: 5px;
+}
+
+#number {
+  padding: 7px;
+  width: 480px;
+  border-radius: 5px;
+}
+#dropdown {
+  padding: 7px;
+  width: 499px;
+  border-radius: 5px;
+}
+/**/
+
+/*resize radio buttons*/
+input[type="radio"] {
+  transform: scale(1.5);
+}
+input[type="checkbox"] {
+  transform: scale(1.5);
+}
+/**/
+
+/*textarea style*/
+#Comment {
+  width: 494px;
+}
+
+input[type="submit"] {
+  padding: 10px;
+  background-color: #193;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+  text-align: center;
+  color: white;
+  width: 500px;
+  font-size: 17px;
+}
